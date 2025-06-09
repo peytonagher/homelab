@@ -1,1 +1,3 @@
-![Current Revision](diagram/diagram.png)
+## My Homelab  
+
+![Current Revision](diagram/homelab.png)
