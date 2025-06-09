@@ -1,0 +1,13 @@
+services:
+  duckdns:
+    image: linuxserver/duckdns:latest
+    container_name: duckdns
+    environment:
+      - PUID=1000      # Set to your user ID
+      - PGID=1000      # Set to your group ID
+      - TZ=America/Detroit  # Set your timezone
+      - SUBDOMAINS=peytonagher    # Replace with your DuckDNS subdomain
+      - TOKEN=REDACTED # Replace with your DuckDNS token
+    volumes:
+      - ./config:/config
+    restart: unless-stopped

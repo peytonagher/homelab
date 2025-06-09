@@ -1,0 +1,14 @@
+services:
+  code-server:
+    image: linuxserver/code-server:latest
+    container_name: code-server
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+    volumes:
+      - /Users/peytonagher:/home
+      - ./data:/config
+    environment:
+      - PASSWORD=2020
+    restart: unless-stopped
+

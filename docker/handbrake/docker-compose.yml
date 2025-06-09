@@ -1,0 +1,21 @@
+services:
+  handbrake:
+    image: jlesage/handbrake
+    container_name: handbrake
+    environment:
+      - USER_ID=1000
+      - GROUP_ID=1000
+      - KEEP_APP_RUNNING=1
+      - AUTOMATED_CONVERSION_ENABLED=true
+      - AUTOMATED_CONVERSION_FORMAT=mp4
+      - AUTOMATED_CONVERSION_KEEP_SOURCE=false
+    volumes:
+      - /Users/peytonagher:/root:rw
+      - ./config:/config:rw
+      - /Volumes/NAS NVMe/Handbrake/Mac mini/Storage:/storage:rw
+      - /Volumes/NAS NVMe/Handbrake/Mac mini/Watch:/watch:rw
+      - /Volumes/NAS NVMe/Handbrake/Mac mini/Output:/output:rw
+    ports:
+      - 5800:5800
+    restart: unless-stopped
+

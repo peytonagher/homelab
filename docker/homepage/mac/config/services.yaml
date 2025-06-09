@@ -1,0 +1,157 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- mac mini:
+  - portainer:
+      href: http://192.168.86.5:9000
+      description: portainer-docker
+      server: my-docker
+      container: portainer
+      showStats: true
+  - code-server:
+      href: http://192.168.86.5:8443
+      description: vscode server
+      server: my-docker
+      container: code-server
+      showStats: true
+  - handbrake:
+      href: http://192.168.86.5:5800
+      description: handbrake
+      server: my-docker
+      container: handbrake
+      showStats: true
+  - minecraft server 1:
+      description: mc-server-java
+      server: my-docker
+      container: mc-server-java
+      showStats: true
+      widget:
+        type: minecraft
+        url: udp://192.168.86.5:25565
+  - minecraft server 2:
+      description: mc-server-2-java
+      server: my-docker
+      container: mc-server-2-java
+      showStats: true
+      widget:
+        type: minecraft
+        url: udp://192.168.86.5:25566
+  - minecraft server 3:
+      description: mc-server-zain-java
+      server: my-docker
+      container: mc-server-zain-java
+      showStats: true
+      widget:
+        type: minecraft
+        url: udp://192.168.86.5:25567
+
+- nas apps:
+  - truenas:
+      href: http://192.168.86.10
+      widget:
+        type: truenas
+        url: http://192.168.86.10
+        username: truenas_admin # not required if using api key
+        password: 2020 # not required if using api key
+        key: 1-XpSU9ZvaqhLb8Fq73LSrU8M8HzEqs2TdukGRgn58YK6nfEJRQ8hGTxQFcLShjjW1
+        enablePools: true # optional, defaults to false
+        nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
+  - plex:
+      href: http://192.168.86.10:32400/web/index.html#!/
+      widget:
+        type: plex
+        url: http://192.168.86.10:32400
+        key: YzJKiPLe7T9cdyxrE_J_
+  - tautulli:
+      href: http://192.168.86.10:30047
+      widget:
+        type: tautulli
+        url: http://192.168.86.10:30047
+        key: e31797a5eb7c4b4baaf18cd09d882a4b
+        enableUser: true # optional, defaults to false
+        showEpisodeNumber: true # optional, defaults to false
+        expandOneStreamToTwoRows: false # optional, defaults to true
+  - romm:
+      href: http://192.168.86.10:30061
+      widget:
+        type: romm
+        url: http://192.168.86.10:30061
+        fields: ["platforms", "totalRoms"]
+  - filebrowser:
+      href: http://192.168.86.10:30051
+  - handbrake:
+      href: http://192.168.86.10:30089
+  - photoprism:
+      href: http://192.168.86.10:20800
+  - ollama:
+      href: http://192.168.86.10:31028
+
+- homelab shortcuts:
+  - raspberry pi 4 - homepage:
+      href: http://192.168.86.11:3000
+  - raspberry pi 3 - homepage:
+      href: http://192.168.86.12:3000
+  - mac mini:
+      href: http://192.168.86.5:3000
+  - raspberry pi 4 - cockpit:
+      href: http://192.168.86.11:9090
+  - raspberry pi 3 - cockpit:
+      href: http://192.168.86.12:9090
+  - nas:
+      href: http://192.168.86.10
+- nas apps:
+  - truenas:
+      href: http://192.168.86.10
+      widget:
+        type: truenas
+        url: http://192.168.86.10
+        username: truenas_admin # not required if using api key
+        password: 2020 # not required if using api key
+        key: 1-XpSU9ZvaqhLb8Fq73LSrU8M8HzEqs2TdukGRgn58YK6nfEJRQ8hGTxQFcLShjjW1
+        enablePools: true # optional, defaults to false
+        nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
+  - plex:
+      href: http://192.168.86.10:32400/web/index.html#!/
+      widget:
+        type: plex
+        url: http://192.168.86.10:32400
+        key: YzJKiPLe7T9cdyxrE_J_
+  - tautulli:
+      href: http://192.168.86.10:30047
+      widget:
+        type: tautulli
+        url: http://192.168.86.10:30047
+        key: e31797a5eb7c4b4baaf18cd09d882a4b
+        enableUser: true # optional, defaults to false
+        showEpisodeNumber: true # optional, defaults to false
+        expandOneStreamToTwoRows: false # optional, defaults to true
+  - romm:
+      href: http://192.168.86.10:30061
+      widget:
+        type: romm
+        url: http://192.168.86.10:30061
+        fields: ["platforms", "totalRoms"]
+  - filebrowser:
+      href: http://192.168.86.10:30051
+  - handbrake:
+      href: http://192.168.86.10:30089
+  - photoprism:
+      href: http://192.168.86.10:20800
+  - ollama:
+      href: http://192.168.86.10:31028
+
+- homelab shortcuts:
+  - raspberry pi 4 - homepage:
+      href: http://192.168.86.11:3000
+  - raspberry pi 3 - homepage:
+      href: http://192.168.86.12:3000
+  - mac mini:
+      href: http://192.168.86.5:3000
+  - raspberry pi 4 - cockpit:
+      href: http://192.168.86.11:9090
+  - raspberry pi 3 - cockpit:
+      href: http://192.168.86.12:9090
+  - nas:
+      href: http://192.168.86.10
+

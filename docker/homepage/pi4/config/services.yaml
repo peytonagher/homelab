@@ -1,0 +1,152 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+- utilities:
+  - portainer:
+      href: http://192.168.86.11:9000
+      description: docker containers
+      server: my-docker
+      container: portainer
+      showStats: true
+  - wireguard:
+      href: http://192.168.86.11:51821
+      description: remote access vpn
+      server: my-docker
+      container: wireguard
+      showStats: true
+      widget:
+        type: wgeasy
+        url: http://192.168.86.11:51821
+        password: 2020
+        threshold: 2 # optional
+  - pihole:
+      href: https://192.168.86.11/admin
+      description: adblocker
+      widget:
+        type: pihole
+        url: http://192.168.86.11:80
+        version: 6
+        key: c016BtyksC1YDYdnzz46cNaTY1lGgnoJyTJ4BsXkXJU=
+        fields: ["queries", "blocked", "blocked_percent", "gravity"]
+  - filebrowser:
+      href: http://192.168.86.11:32775
+      description: files
+      server: my-docker
+      container: filebrowser
+      showStats: true
+
+- media:
+  - overseerr:
+      href: http://192.168.86.11:5055
+      description: requests
+      server: my-docker
+      container: overseerr
+      showStats: true
+      widget:
+        type: overseerr
+        url: http://192.168.86.11:5055
+        key: MTc0NDA3NTEwMTc1MzI0ODFkYjE4LTJiM2MtNGMzOS04Zjc5LTc3ZTA4ZjdjZTY1Zg==
+  - radarr:
+      href: http://192.168.86.11:7878
+      description: movies
+      server: my-docker
+      container: radarr
+      showStats: true
+      widget:
+        type: radarr
+        url: http://192.168.86.11:7878
+        key: adc4018e42e245ab9883b3736e585b78
+        enableQueue: true
+  - bazarr:
+      href: http://192.168.86.11:6767
+      description: subtitles
+      server: my-docker
+      container: bazarr
+      showStats: true
+      widget:
+        type: bazarr
+        url: http://192.168.86.11:6767
+        key: b1d2b1b56a8fd32aaf5abeb67081720b
+  - prowlarr:
+      href: http://192.168.86.11:9696
+      description: indexers
+      server: my-docker
+      container: prowlarr
+      showStats: true
+      widget:
+        type: prowlarr
+        url: http://192.168.86.11:9696
+        key: 0619ce6931ba4e31b5a5c68440b44da2
+  - sonarr:
+      href: http://192.168.86.11:8989
+      description: shows
+      server: my-docker
+      container: sonarr
+      showStats: true
+      widget:
+        type: sonarr
+        url: http://192.168.86.11:8989
+        key: 222448826ced4b00b3fb12b282bc1040
+        enableQueue: true
+  - karakeep:
+      href: http://192.168.86.11:3002
+      description: bookmarks
+      server: my-docker
+      container: karakeep
+      showStats: true
+  
+- nas apps:
+  - truenas:
+      href: http://192.168.86.10
+      widget:
+        type: truenas
+        url: http://192.168.86.10
+        username: truenas_admin # not required if using api key
+        password: 2020 # not required if using api key
+        key: 1-XpSU9ZvaqhLb8Fq73LSrU8M8HzEqs2TdukGRgn58YK6nfEJRQ8hGTxQFcLShjjW1
+        enablePools: true # optional, defaults to false
+        nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
+  - plex:
+      href: http://192.168.86.10:32400/web/index.html#!/
+      widget:
+        type: plex
+        url: http://192.168.86.10:32400
+        key: YzJKiPLe7T9cdyxrE_J_
+  - tautulli:
+      href: http://192.168.86.10:30047
+      widget:
+        type: tautulli
+        url: http://192.168.86.10:30047
+        key: e31797a5eb7c4b4baaf18cd09d882a4b
+        enableUser: true # optional, defaults to false
+        showEpisodeNumber: true # optional, defaults to false
+        expandOneStreamToTwoRows: false # optional, defaults to true
+  - romm:
+      href: http://192.168.86.10:30061
+      widget:
+        type: romm
+        url: http://192.168.86.10:30061
+        fields: ["platforms", "totalRoms"]
+  - filebrowser:
+      href: http://192.168.86.10:30051
+  - handbrake:
+      href: http://192.168.86.10:30089
+  - photoprism:
+      href: http://192.168.86.10:20800
+  - ollama:
+      href: http://192.168.86.10:31028
+
+- homelab shortcuts:
+  - raspberry pi 4 - homepage:
+      href: http://192.168.86.11:3000
+  - raspberry pi 3 - homepage:
+      href: http://192.168.86.12:3000
+  - mac mini:
+      href: http://192.168.86.5:3000
+  - raspberry pi 4 - cockpit:
+      href: http://192.168.86.11:9090
+  - raspberry pi 3 - cockpit:
+      href: http://192.168.86.12:9090
+  - nas:
+      href: http://192.168.86.10

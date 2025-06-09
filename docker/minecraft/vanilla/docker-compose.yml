@@ -1,0 +1,75 @@
+services:
+  minecraft-java:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    container_name: mc-server-java
+    ports:
+      - "25565:25565"
+      - "25575:25575"
+    environment:
+      EULA: "true"
+      VERSION: 1.21.3
+      MEMORY: 2G
+      TZ: America/Detroit
+      ENABLE_ROLLING_LOGS: "true"
+      TYPE: "PAPER"
+      PLUGINS: |
+        https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
+        https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
+      DIFFICULTY: "normal"
+      FORCE_GAMEMODE: "true"
+      VIEW_DISTANCE: 20
+      MODE: "survival"
+      SERVER_NAME: "dksummit"
+      LEVEL: "world1"
+      MOTD: "A Paper Minecraft Server powered by Docker"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: REDACTED
+      RCON_PORT: 25575  # Default RCON port
+    volumes:
+      - ./data-java:/data
+    restart: unless-stopped
+
+
+  minecraft-bedrock:
+    image: itzg/minecraft-bedrock-server
+    tty: true
+    stdin_open: true
+    container_name: mc-server-bedrock
+    ports:
+      - "19132:19132/udp"
+    environment: 
+      EULA: "true"
+      TZ: America/Detroit
+      SERVER_NAME: "dksummit-bdrk"
+      LEVEL_NAME: "world1-bdrk"
+      MAX_THREADS: 2
+      DIFFICULTY: "normal"
+      FORCE_GAMEMODE: "true"
+      VIEW_DISTANCE: 16  
+      GAMEMODE: "survival"
+    volumes:
+      - ./data-bdrk:/data
+    restart: unless-stopped
+
+
+  java-backup:
+    image: itzg/mc-backup
+    container_name: mc-server-java-backup
+    environment:
+      RCON_HOST: minecraft-java
+      RCON_PORT: 25575
+      RCON_PASSWORD: REDACTED
+    volumes:
+      - ./backups-java:/backups
+      - ./data-java:/data
+    depends_on:
+      - minecraft-java
+    restart: unless-stopped
+
+volumes:
+    data: {}
+    data-java: {}
+    data-bdrk: {}
+    backups-java: {}

@@ -1,0 +1,1025 @@
+[2025-01-16T01:13:59.112Z] info: docker.yaml was copied to the config folder
+[2025-01-16T01:13:59.125Z] info: services.yaml was copied to the config folder
+[2025-01-16T01:13:59.128Z] info: bookmarks.yaml was copied to the config folder
+[2025-01-16T01:13:59.133Z] info: widgets.yaml was copied to the config folder
+[2025-01-16T01:13:59.136Z] info: custom.css was copied to the config folder
+[2025-01-16T01:13:59.139Z] info: custom.js was copied to the config folder
+[2025-01-16T01:14:22.640Z] info: kubernetes.yaml was copied to the config folder
+[2025-01-22T03:05:45.524Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:05:45.824Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:05:47.171Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:47.202Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:47.229Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:47.233Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:47.263Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:47.305Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:47.312Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:47.335Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:48.339Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:05:50.796Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:50.804Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:50.872Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:05:50.880Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:50.883Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:50.914Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:50.917Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:50.942Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:50.947Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.122Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.129Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:05:52.137Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.144Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.163Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.198Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.201Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.205Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:52.220Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.707Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.711Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.714Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.771Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.775Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.780Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.826Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.833Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:05:59.900Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:06:00.318Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:06:00.382Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.388Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.394Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.413Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.423Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.660Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:06:00.718Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.742Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.746Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.749Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.766Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.802Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.806Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:00.813Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.237Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.280Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.284Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.298Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.301Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.318Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.392Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.395Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:19.408Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:06:19.444Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:06:20.001Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:06:20.009Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:20.013Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:20.019Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:20.023Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:20.073Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:20.076Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:20.079Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:06:20.090Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.200Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.261Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.297Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.315Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.351Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.399Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-01-22T03:07:14.430Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.470Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-01-22T03:07:14.476Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+[2025-03-29T02:52:56.793Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.005Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.038Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.077Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.117Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.197Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.251Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.603Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.647Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.682Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.703Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:57.719Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:52:58.223Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:53:02.464Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-03-29T02:53:02.491Z] error: Host validation failed for: 192.168.86.12:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2025-04-09T02:05:25.824Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:25.861Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:25.940Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:25.978Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:26.003Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:26.025Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:26.059Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:26.081Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:26.103Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:26.124Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.664Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.712Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.739Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.778Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.820Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.851Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.888Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.929Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.965Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/status/[...service].js:1:3545)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-09T02:05:46.989Z] error: <dockerStatsService> TypeError: Cannot read properties of null (reading 'conn')
+    at l (/app/.next/server/pages/api/docker/stats/[...service].js:1:2330)
+    at X (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:247:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:438:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.3_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:462:13)
+[2025-04-10T00:42:59.029Z] error: <httpProxy> Error calling http://192.168.86.12/admin/admin/api.php...
+[2025-04-10T00:42:59.069Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.12:80
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.12:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.12',
+    port: 80
+  }
+]
+[2025-04-10T00:43:02.065Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.126Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.236Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.241Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.271Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.287Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: getaddrinfo ENOTFOUND dockerproxy] {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-04-10T00:43:02.348Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.355Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.386Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.438Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.444Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-10T00:43:02.469Z] error: <httpProxy> Error calling http://192.168.86.12/admin/admin/api.php...
+[2025-04-10T00:43:02.475Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.12:80
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.12:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.12',
+    port: 80
+  }
+]
+[2025-04-28T02:17:57.148Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2025-04-28T02:17:57.213Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN api.github.com] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2025-04-28T02:19:08.108Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.297Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.304Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.310Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.866Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: connect ECONNREFUSED 172.18.0.3:2375
+    at <unknown> (Error: connect ECONNREFUSED 172.18.0.3:2375) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '172.18.0.3',
+  port: 2375
+}
+[2025-04-28T02:19:08.872Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.877Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.918Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.926Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.932Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:08.977Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.277Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: connect ECONNREFUSED 172.18.0.3:2375
+    at <unknown> (Error: connect ECONNREFUSED 172.18.0.3:2375) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '172.18.0.3',
+  port: 2375
+}
+[2025-04-28T02:19:09.284Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.324Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.362Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.386Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.391Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.448Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.452Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.498Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.537Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.542Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-28T02:19:09.566Z] error: <httpProxy> Error calling http://192.168.86.12/admin/admin/api.php...
+[2025-04-28T02:19:09.573Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.12:80
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.12:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.12',
+    port: 80
+  }
+]
+[2025-04-29T00:12:21.542Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.735Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.742Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.750Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.867Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: connect ECONNREFUSED 172.18.0.3:2375
+    at <unknown> (Error: connect ECONNREFUSED 172.18.0.3:2375) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '172.18.0.3',
+  port: 2375
+}
+[2025-04-29T00:12:21.879Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.884Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.940Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.947Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.953Z] error: <dockerStatusService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.967Z] error: <dockerStatsService> Error: connect ECONNREFUSED 172.18.0.3:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:12:21.984Z] error: <httpProxy> Error calling http://192.168.86.12/admin/admin/api.php...
+[2025-04-29T00:12:21.992Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.12:80
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.12:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.12',
+    port: 80
+  }
+]
+[2025-04-29T00:26:21.339Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:21.509Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:21.600Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:21.805Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: getaddrinfo ENOTFOUND dockerproxy] {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-04-29T00:26:22.038Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.090Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.185Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: getaddrinfo ENOTFOUND dockerproxy] {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dockerproxy'
+}
+[2025-04-29T00:26:22.191Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.204Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.210Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.219Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.298Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.303Z] error: <dockerStatusService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.349Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.353Z] error: <dockerStatsService> Error: getaddrinfo ENOTFOUND dockerproxy
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+    at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-04-29T00:26:22.483Z] error: <httpProxy> Error calling http://192.168.86.12/admin/admin/api.php...
+[2025-04-29T00:26:22.552Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.12:80
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.12:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.12',
+    port: 80
+  }
+]
+[2025-05-25T23:33:17.742Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:33:19.113Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:33:33.719Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:35:43.817Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:36:47.487Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:38:43.942Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:38:46.316Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:39:30.168Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:40:54.024Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:40:56.514Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:47:40.236Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:47:44.365Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:50:20.071Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:50:22.371Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:51:29.103Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:51:31.859Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:51:33.600Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:51:39.796Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:52:25.936Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:52:28.376Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:55:15.385Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:55:20.998Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:55:53.629Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:56:04.707Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:56:41.577Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-25T23:56:59.509Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T00:01:07.214Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T00:01:12.248Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T00:01:26.739Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T00:01:39.854Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T00:01:52.274Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T00:02:17.639Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:09:48.979Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:09:55.686Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:14:10.740Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:17:30.493Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:17:35.593Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:17:46.238Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:22:19.070Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:23:07.072Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:37:47.451Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:38:06.292Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:43:40.026Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:43:45.589Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:43:49.915Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:43:58.347Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:44:17.737Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:44:28.685Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:53:19.860Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:53:33.545Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:54:59.075Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:55:04.367Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:55:28.606Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:57:04.490Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T21:57:08.279Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:06:34.975Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:06:42.740Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:06:44.085Z] error: <httpProxy> Error calling http://192.168.86.12:8888/v1/publicip/ip...
+[2025-05-26T22:06:44.165Z] error: <httpProxy> [
+  500,
+  [Error: read ECONNRESET] {
+    errno: -104,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+]
+[2025-05-26T22:06:44.173Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.12:8888/v1/publicip/ip
+[2025-05-26T22:07:39.846Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:07:40.323Z] error: <httpProxy> Error calling http://192.168.86.12:8888/v1/publicip/ip...
+[2025-05-26T22:07:40.339Z] error: <httpProxy> [ 500, [Error: socket hang up] { code: 'ECONNRESET' } ]
+[2025-05-26T22:07:40.341Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.12:8888/v1/publicip/ip
+[2025-05-26T22:07:41.823Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:07:42.089Z] error: <httpProxy> Error calling http://192.168.86.12:8888/v1/publicip/ip...
+[2025-05-26T22:07:42.093Z] error: <httpProxy> [
+  500,
+  [Error: read ECONNRESET] {
+    errno: -104,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+]
+[2025-05-26T22:07:42.094Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.12:8888/v1/publicip/ip
+[2025-05-26T22:09:48.967Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:09:49.285Z] error: <httpProxy> Error calling http://192.168.86.12:8888/v1/publicip/ip...
+[2025-05-26T22:09:49.299Z] error: <httpProxy> [
+  500,
+  [Error: read ECONNRESET] {
+    errno: -104,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+]
+[2025-05-26T22:09:49.300Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.12:8888/v1/publicip/ip
+[2025-05-26T22:15:14.832Z] error: undefined
+[2025-05-26T22:15:15.141Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at c (/app/.next/server/pages/api/services/proxy.js:28:39403)
+    at async X (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:235:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:426:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:450:13)
+[2025-05-26T22:15:15.219Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:15:19.079Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:15:19.182Z] error: undefined
+[2025-05-26T22:15:19.192Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at c (/app/.next/server/pages/api/services/proxy.js:28:39403)
+    at async X (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:235:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:426:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:450:13)
+[2025-05-26T22:15:29.473Z] error: undefined
+[2025-05-26T22:15:29.485Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at c (/app/.next/server/pages/api/services/proxy.js:28:39403)
+    at async X (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:235:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:426:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:450:13)
+[2025-05-26T22:15:36.984Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:15:37.223Z] error: <httpProxy> Error calling http://192.168.86.12:8888/v1/publicip/ip...
+[2025-05-26T22:15:37.229Z] error: <httpProxy> [
+  500,
+  [Error: read ECONNRESET] {
+    errno: -104,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+]
+[2025-05-26T22:15:37.231Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.12:8888/v1/publicip/ip
+[2025-05-26T22:15:41.491Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:15:41.711Z] error: <httpProxy> Error calling http://192.168.86.12:8888/v1/publicip/ip...
+[2025-05-26T22:15:41.715Z] error: <httpProxy> [
+  500,
+  [Error: read ECONNRESET] {
+    errno: -104,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+]
+[2025-05-26T22:15:41.716Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.12:8888/v1/publicip/ip
+[2025-05-26T22:16:35.541Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:16:36.500Z] error: <httpProxy> Error calling http://192.168.86.12:8888/v1/publicip/ip...
+[2025-05-26T22:16:36.505Z] error: <httpProxy> [
+  500,
+  [Error: read ECONNRESET] {
+    errno: -104,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+]
+[2025-05-26T22:16:36.507Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.12:8888/v1/publicip/ip
+[2025-05-26T22:16:45.306Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T22:16:51.719Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:02:15.335Z] error: <dockerStatusService> Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:542:25)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[2025-05-26T23:02:18.378Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:05:22.228Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:05:25.910Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:14:36.305Z] error: <httpProxy> Error calling https://192.168.86.12/admin/api/auth...
+[2025-05-26T23:14:36.525Z] error: undefined
+[2025-05-26T23:14:36.391Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.12:443
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.12:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.12',
+    port: 443
+  }
+]
+[2025-05-26T23:14:36.607Z] error: SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at c (/app/.next/server/pages/api/services/proxy.js:45:20740)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async y (/app/.next/server/pages/api/services/proxy.js:45:21488)
+    at async X (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:664:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:301:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:895:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.2.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:235:21)
+[2025-05-26T23:17:58.667Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:18:24.275Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:20:41.578Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:22:16.235Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:27:08.410Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:27:12.910Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:27:17.792Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 400
+[2025-05-26T23:27:36.656Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:27:41.411Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:27:50.583Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:27:57.821Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:28:26.096Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:28:35.001Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:29:12.827Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:39:25.506Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:39:54.429Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:40:02.224Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:40:16.827Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:40:30.924Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:40:36.770Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:40:43.176Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:42:51.445Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:43:01.198Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-26T23:43:08.047Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:00:59.773Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:01:08.201Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:02:26.577Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:02:33.560Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:06:27.701Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:06:34.115Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:06:56.264Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:08:04.618Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:09:44.821Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-27T00:09:48.441Z] error: <piholeProxyHandler> Failed to login to Pi-Hole API, status: 401
+[2025-05-30T01:18:39.473Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2025-05-30T01:18:39.509Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN api.github.com] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2025-05-31T21:07:52.555Z] error: <httpProxy> Error calling http://192.168.86.12:9091/transmission/rpc...
+[2025-05-31T21:07:52.596Z] error: <httpProxy> [
+  500,
+  [Error: read ECONNRESET] {
+    errno: -104,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+]
+[2025-05-31T21:07:52.602Z] error: <transmissionProxyHandler> Error getting data from Transmission: 500.  Data: { error: [Object] }
+[2025-05-31T21:07:52.752Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/system/info
+[2025-05-31T21:07:52.887Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/pool/dataset
+[2025-05-31T21:21:03.543Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/alert/list
+[2025-05-31T21:22:06.772Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/pool/dataset
+[2025-05-31T21:22:17.925Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/pool/dataset
+[2025-05-31T21:25:23.379Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/pool/dataset
+[2025-05-31T21:26:43.539Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/system/info
+[2025-05-31T21:27:04.375Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/pool/dataset
+[2025-05-31T23:37:05.271Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/pool
+[2025-05-31T23:38:09.315Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/system/info
+[2025-06-06T00:01:57.571Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/alert/list
+[2025-06-08T18:59:01.735Z] error: <httpProxy> Error calling http://192.168.86.11:51821/api/wireguard/client...
+[2025-06-08T18:59:01.776Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.11:51821
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.11:51821) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.11',
+    port: 51821
+  }
+]
+[2025-06-08T18:59:01.780Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.11:51821/api/wireguard/client
+[2025-06-08T18:59:02.930Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://192.168.86.10/api/v2.0/system/info
+[2025-06-08T18:59:06.148Z] error: <httpProxy> Error calling http://192.168.86.11:51821/api/wireguard/client...
+[2025-06-08T18:59:06.158Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 192.168.86.11:51821
+      at <unknown> (Error: connect ECONNREFUSED 192.168.86.11:51821) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '192.168.86.11',
+    port: 51821
+  }
+]
+[2025-06-08T18:59:06.159Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.86.11:51821/api/wireguard/client

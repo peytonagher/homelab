@@ -1,0 +1,25 @@
+services:
+  pixelmon:
+    image: itzg/minecraft-server:java11
+    tty: true
+    stdin_open: true
+    ports:
+      - "25568:25565"
+    environment:
+      EULA: "true"
+      MEMORY: 6G
+      TZ: America/Detroit
+      ENABLE_ROLLING_LOGS: "true"
+      TYPE: FORGE
+      VERSION: 1.16.5
+      FORGEVERSION: 36.2.34
+      VIEW_DISTANCE: 14
+      SERVER_NAME: "dksummit-pixelmon"
+      LEVEL: "world1-pixelmon"
+      MOTD: "A Pixelmon Server powered by Forge and Docker"
+    volumes:
+      - ./data-pixelmon:/data
+    restart: unless-stopped
+
+volumes:
+  data-pixelmon: {}

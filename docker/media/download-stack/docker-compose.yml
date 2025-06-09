@@ -1,0 +1,50 @@
+services:
+    gluetun:
+        image: qmcgaw/gluetun
+        container_name: gluetun
+        cap_add:
+          - NET_ADMIN
+        devices:
+          - /dev/net/tun:/dev/net/tun
+        ports:
+          - 8888:8888/tcp # HTTP proxy
+          - 9091:9091/tcp # Transmission web ui
+        volumes:
+          - ./gluetun/config:/gluetun
+        environment:
+          - VPN_SERVICE_PROVIDER=protonvpn
+          - VPN_TYPE=wireguard
+          - WIREGUARD_ADDRESSES=10.2.0.2/32
+          - WIREGUARD_PUBLIC_KEY=REDACTED
+          - WIREGUARD_PRIVATE_KEY=REDACTED
+          - WIREGUARD_ENDPOINT_IP=REDACTED
+          - SERVER_COUNTRIES=Netherlands,United States,Canada,Germany,France,Italy,Sweden
+          - PORT_FORWARD_ONLY=on
+          - VPN_PORT_FORWARDING=on
+          - TZ=America/Detroit
+          - UPDATER_PERIOD=24h
+          - UPDATER_VPN_SERVICE_PROVIDERS=protonvpn
+        restart: unless-stopped
+
+
+    transmission:
+        image: lscr.io/linuxserver/transmission:latest
+        container_name: transmission
+        environment:
+            - PUID=1000
+            - PGID=1000
+            - TZ=Etc/UTC
+            - TRANSMISSION_WEB_HOME= #optional
+            - USER= #optional
+            - PASS= #optional
+            - WHITELIST= #optional
+            - PEERPORT= #optional
+            - HOST_WHITELIST= #optional
+        volumes:
+            - ./transmission/config:/config
+            - /mnt/nas/Transmission/Downloads:/downloads
+            - /mnt/nas/Transmission/Downloads/complete:/downloads/complete
+            - /mnt/nas/Transmission/Downloads/incomplete:/downloads/incomplete
+            - /mnt/nas/Transmission/Watch:/watch
+        network_mode: service:gluetun
+        restart: unless-stopped
